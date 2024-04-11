@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="sidebar">
+
+      <div class="logo"><a href="#"><img src="img/icons/view-dashboard.svg" alt="view-dashboard" /><span>Dashboard</span></a></div>
+
+      <ul>
+        <li><a href="#"><img src="img/icons/home.svg" alt="home" /><span>Home</span></a></li>
+        <li><a href="#"><img src="img/icons/card-account-details.svg" alt="card-account-details" /><span>Profile</span></a></li>
+        <li><a href="#"><img src="img/icons/message.svg" alt="message" /><span>Messages</span></a></li>
+        <li><a href="#"><img src="img/icons/history.svg" alt="history" /><span>History</span></a></li>
+        <li><a href="#"><img src="img/icons/note-multiple.svg" alt="note-multiple" /><span>Tasks</span></a></li>
+        <li><a href="#"><img src="img/icons/account-group.svg" alt="account-group" /><span>Communities</span></a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#"><img src="img/icons/cog.svg" alt="cog" /><span>Settings</span></a></li>
+        <li><a href="#"><img src="img/icons/help-box.svg" alt="help-box" /><span>Support</span></a></li>
+        <li><a href="#"><img src="img/icons/shield-check.svg" alt="shield-check" /><span>Privacy</span></a></li>
+      </ul>
+
+    </div>
+
+    <div class="header">
+
+      <div class="top-header">
+        <form action="#" class="search">
+          <input type="image" src="img/icons/magnify.svg" alt="magnify" />
+          <input type="text" name="search" id="search" />
+        </form>
+        <div class="user-actions">
+          <button id="bell"></button>
+          <button class="profile"></button>
+          <a href="#">Morgan Oakley</a>
+        </div>
+      </div>
+
+      <div class="bottom-header">
+        <div id="user-greeting">
+          <button class="profile"></button>
+          <div>
+            <span>Hi there,</span>
+            <span>Morgan Oakley (@morgan)</span>
+          </div>
+        </div>
+        <div id="user-actions">
+          <button id="new">New</button>
+          <button id="upload">Upload</button>
+          <button id="share">Share</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main-content">
+
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="cards">
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>Sed tempus uc lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Less Cool Project</h4>
+            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Impossible App</h4>
+            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Easy Peasy App</h4>
+            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ad Blocker</h4>
+            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Money Maker</h4>
+            <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+            <div class="buttons">
+              <button class="favourite"></button>
+              <button class="check-later"></button>
+              <button class="share"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcements">
+        <h4>Announcements</h4>
+        <div class="notices">
+          <div class="notice">
+            <h5>Site Maintenance</h5>
+            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+          </div>
+          <div class="notice">
+            <h5>Community Share Day</h5>
+            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+          </div>
+          <div class="notice">
+            <h5>Updated Privacy Policy</h5>
+            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending">
+        <h4>Trending</h4>
+        <div class="users">
+          <div class="user">
+            <a href="#">
+              <button class="profile"></button>
+              <div>
+                <span>@tegan</span>
+                <span>World Peace Builder</span>
+              </div>
+            </a>
+          </div>
+          <div class="user">
+            <a href="#">
+              <button class="profile"></button>
+              <div>
+                <span>@morgan</span>
+                <span>Super Cool Project</span>
+              </div>
+            </a>
+          </div>
+          <div class="user">
+            <a href="#">
+              <button class="profile"></button>
+              <div>
+                <span>@kendall</span>
+                <span>Life Changing App</span>
+              </div>
+            </a>
+          </div>
+          <div class="user">
+            <a href="#">
+              <button class="profile"></button>
+              <div>
+                <span>@alex</span>
+                <span>No Traffic Maker</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
